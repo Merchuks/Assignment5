@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root 
+{
+     --main-color: #090;
+     --secondary-color: #fff;
+     --main-font:  'Mukta', sans-serif;
+ }
+
+ body {
+  
+    font-family : (main-font);
+    
+    background-color: green;
+    
+     
+ }
+
+ .box { 
+padding: 2rem;
+  margin: 100px;
+  width: 70rem;
+  height: 
+  50rem;
+  border: 2px solid green;
+
+  background-color: black;
+  
+  
+
+
+
+ }
+
+ nav {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  align-items: center;
+  position: relative;
+  color: #fff;
+  flex: 1.5rem 2rem;
+  margin-bottom: 4rem;
+}
+
+ .image {
+  display: flex;
+  align-items: center;
+  height:  2rem;
+  width:2rem;
+  color: #fff;
+  padding: 2rem;
+ }
+  
+
+  nav .logo {
+    display: flex;
+    align-self: center;
+    height: 1rem;
+    width: 1rem;
+    gap: 2rem;
+    color: #fff;
+
+  }
+
+
+nav div .links {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    color: #fff;
+  }
+
+  nav  div .links .link {
+    list-style: none;
+    opacity: .7;
+    color: #fff;
+    
+    
+  }
+
+  nav .image {
+height: 2rem;
+width: 2rem;
+align-items: center;
+color: #fff;
+ }
+
+ nav .image img {
+  height: 2rem;
+  width: 2rem;
+  align-items: center;
+color: #fff;
+ }
+main {
+  display: flex;
+padding: 3rem;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 4rem;
+  color: #fff;
+  
+
+}
+section .post1 {
+  align-items: ce;
+}
+
+   div .text-section {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    
+   }
+     div .image {
+      align-items: flex-end; 
+      height: 2rem;
+      width: 2rem;  
+    }
+     main div .image3 {
+      justify-self: left;
+      align-items: flex-end;
+     }
+       
+     footer {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+      justify-content: space-between;
+     }
+
+     footer .image {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2.5rem;
+      size-adjust: 4rem;
+     }
+     
